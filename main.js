@@ -83,8 +83,8 @@ function addToBank(account, savings, retirement, checking) {
 }
 
 function getSumOfAccounts(account) {
-    "use strict";
-    return (account.savings + account.retirement + account.checking ) - (account.savings + account.retirement + account.checking)
+    "use strict" 
+    return (account.savings + account.retirement + account.checking )
 }
 
 addToBank(MattsBankAccount, 100, 10, 1);
